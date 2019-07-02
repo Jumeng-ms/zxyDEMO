@@ -1,0 +1,15 @@
+.context{
+    width: 800px;
+    height: 300px;
+}
+
+.contextLeft{
+    width: 390px;
+    height: 300px;
+    border-right: 1px solid #333333;
+}
+
+.contextRight{
+    width: 390px;
+    height: 300px;
+}

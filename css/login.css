@@ -1,0 +1,54 @@
+input[type="submit"]:focus {
+    border: 1px solid #4D90FE;
+    outline: medium none;
+}
+
+input[type="submit"] {
+    -moz-user-select: none;
+    background-color: #F5F5F5;
+    background-image: -moz-linear-gradient(center top , #F5F5F5, #F1F1F1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px 2px 2px 2px;
+    color: #666666;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    height: 29px;
+    line-height: 27px;
+    margin: 11px 6px;
+    min-width: 54px;
+    padding: 0 8px;
+    text-align: center;
+}
+input[type="submit"]:hover {
+    background-color: #F8F8F8;
+    background-image: -moz-linear-gradient(center top , #F8F8F8, #F1F1F1);
+    border: 1px solid #C6C6C6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #333333;
+}
+input[type="submit"]:focus {
+    border: 1px solid #4D90FE;
+    outline: medium none;
+}
+
+
+.formCon table {
+    padding: 10px;
+    width: 280px;
+}
+.formCon table tr{
+    height: 35px;
+}
+
+.formCon input{
+    border: none;
+    outline: none; // 去除选中状态边框
+}
+
+.formCon .il{
+    font-size: 14px;
+    border-bottom: #dbdbdb 1px solid;
+}
+

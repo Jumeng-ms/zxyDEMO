@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <link type="text/css" rel="styleSheet" href="css/main.css" />
+    <link type="text/css" rel="styleSheet" href="css/login.css" />
+</head>
+<body style="background: url('img/login_bg.png') no-repeat center ">
+<header>
+    <div class="con pd15">
+        <div class="logo">
+            <a href="index.html"><img alt="logo" src="img/logo.jpg"/></a>
+        </div>
+        <div class="banner">
+            <a href="login.html">登录</a>
+            <a href="register.html">注册</a>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="con">
+        <div class="formCon">
+            <form name="register" action="#" method="post">
+                <h1 class="textAlignCenter">注&nbsp;册&nbsp;账&nbsp;号</h1>
+                <table>
+                    <tr>
+                        <td>手机号码：</td>
+                        <td><input class="il" type="tel" maxlength="11" class="phone" onkeyup = "value=value.replace(/[^\d]/g,'')" placeholder="请输入手机号" required/></td>
+                    </tr>
+                    <tr>
+                        <td>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</td>
+                        <td><input class="il" type="password" minlength="6" maxlength="32" placeholder="请输入密码" required/></td>
+                    </tr>
+                    <tr>
+                        <td>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</td>
+                        <td><input class="il" type="password" minlength="6" maxlength="32" placeholder="请再次输入密码" required/></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input class="fr" type="submit" value="马上注册">
+                        </td>
+                    </tr>
+
+                </table>
+            </form>
+        </div>
+    </div>
+</section>
+<footer >
+    <div class="con">
+        <div class="info">
+            <p>制作人: 周雪莹&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系邮箱: <a href="mailto:someone@example.com">someone@example.com</a></p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

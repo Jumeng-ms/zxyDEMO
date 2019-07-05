@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>修改文章</title>
+    <link type="text/css" rel="styleSheet" href="css/main.css" />
+
+</head>
+<body>
+<header>
+    <div class="con pd15">
+        <div class="logo">
+            <a href="index.html"><img alt="logo" src="img/logo.png"/></a>
+        </div>
+        <div class="banner">
+            <a href="login.html">登录</a>
+            <a href="register.html">注册</a>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="con">
+        <div class="aboutCon mt30">
+            <h1 class="textAlignCenter mb30">修改文章</h1>
+            <div class="context m0A">
+                <div id="editor">
+                    <p>修改文章</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="backTop">
+    <a href="#">TOP</a>
+</div>
+<footer>
+    <div class="con ">
+        <div class="info">
+            <p>制作人: 周雪莹&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系邮箱: <a href="mailto:someone@example.com">someone@example.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="about.html" style="color: red">关于博客</a></p>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="js/wangEditor-3.1.1/wangEditor.min.js"></script>
+<script type="text/javascript">
+    var E = window.wangEditor
+    var editor = new E('#editor')
+    // 或者 var editor = new E( document.getElementById('editor') )
+    editor.create()
+</script>
+</body>
+</html>

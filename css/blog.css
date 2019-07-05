@@ -1,0 +1,76 @@
+.conL{
+    float: left;
+    width: 700px;
+    min-height: 300px;
+}
+.conR{
+    float: right;
+    width: 300px;
+    min-height: 300px;
+}
+.cc {
+    width: 680px;
+    min-height: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    box-shadow: #ebebeb 2px 2px 2px;
+}
+.ci{
+    width: 680px;
+    min-height: 200px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    box-shadow: #ebebeb 2px 2px 2px;
+}
+.ci .img{
+    float: left;
+    width: 250px;
+    height: 200px;
+}
+.ci .imgContext{
+    float: right;
+    margin-left: 10px;
+    width: 420px;
+    height: 100px;
+}
+
+.cc p a,.ci p a{
+    margin-left: 5px;
+    color: #c24f4a;
+}
+
+.n{
+    margin-left: 40px;
+    position: fixed;
+    padding: 15px;
+    float: right;
+    width: 230px;
+    min-height: 10px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    box-shadow: #ebebeb 2px 2px 2px;
+}
+.gd a{
+    color: #c24f4a;
+}
+
+.more{
+    margin-left: 40px;
+    margin-top: 180px;
+    position: fixed;
+    padding: 15px;
+    float: right;
+    width: 230px;
+    min-height: 10px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    box-shadow: #ebebeb 2px 2px 2px;
+}
+.more ul li{
+    margin: 5px 0;
+}
+

@@ -7,7 +7,7 @@ a{text-decoration:none;}
 a:link{color:#333;}
 a:visited{color:#333;}
 a:hover,a:active,a:focus{color:#c00;text-decoration:none;}
-
+.clearfix { overflow: auto; zoom: 1; }
 .fl{
     float: left;
 }
@@ -31,12 +31,28 @@ a:hover,a:active,a:focus{color:#c00;text-decoration:none;}
 .mb30{
     margin-bottom: 30px;
 }
+.mb75{
+    margin-bottom: 75px;
+}
+.pt30{
+    padding-top: 30px;
+}
+.pb30{
+    padding-bottom: 30px;
+}
 .pl15{
     padding-left: 15px;
+}
+.pl30{
+    padding-left: 30px;
 }
 .pd15{
     padding: 15px;
 }
+
+.divcss5{text-indent:25px}
+
+
 .con{
     width: 1002px;
     margin: 0 auto;
@@ -50,7 +66,13 @@ header{
 header .logo{
     float: left;
     width: 200px;
+    margin-top: -15px;
 }
+header .logo img{
+    width: 50px;
+    height: 50px;
+}
+
 header .banner{
     float: right;
 }
@@ -81,4 +103,22 @@ footer{
     border: 1px solid #ebebeb;
     border-radius:25px;
     box-shadow: #ebebeb 2px 2px 2px;
+}
+
+
+.backTop{
+    background-color: #ffffff;
+    border: 1px solid #ebebeb;
+    border-radius:2px;
+    box-shadow: #ebebeb 2px 2px 2px;
+    position: fixed;
+    bottom: 75px;
+    right: 50px;
+    width: 45px;
+    height: 45px;
+}
+.backTop a{
+    display: block;
+    padding-left: 10px;
+    padding-top: 14px;
 }

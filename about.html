@@ -5,12 +5,15 @@
     <title>主页</title>
     <link type="text/css" rel="styleSheet" href="css/main.css" />
     <link type="text/css" rel="styleSheet" href="css/about.css" />
+    <link type="text/css" href="css/lb.css" rel="stylesheet" />
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/lb.js"></script>
 </head>
 <body>
 <header>
     <div class="con pd15">
         <div class="logo">
-            <a href="index.html"><img alt="logo" src="img/logo.jpg"/></a>
+            <a href="index.html"><img alt="logo" src="img/logo.png"/></a>
         </div>
         <div class="banner">
             <a href="login.html">登录</a>
@@ -19,17 +22,16 @@
     </div>
 </header>
 
-<section>
-    <div class="con">
+<section class="mb75">
         <div class="aboutCon mt30">
             <h1 class="textAlignCenter mb30">关&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;于</h1>
             <div class="context m0A">
                 <div class="contextLeft fl ">
                     <div class="mt30">
-                        <p><b>This is about</b></p>
+                        <p><b>This is blog</b></p>
                         <br>
                         <div class="pl15">
-                            <p>个人设计页面</p>
+                            <p>个人博客设计页面</p>
                             <p>内容</p>
                             <p>内容</p>
                             <p>内容</p>
@@ -46,12 +48,66 @@
                 </div>
             </div>
         </div>
+</section>
+
+<section class="mb75">
+    <div class="show">
+        <div id="zSlider">
+            <div id="picshow">
+                <div id="picshow_img">
+                    <ul>
+                        <li><a href="#"><img src="img/1.jpg"></a></li>
+                        <li><a href="#"><img src="img/2.jpg"></a></li>
+                        <li><a href="#"><img src="img/login_bg.png"></a></li>
+                        <li><a href="#"><img src="img/logo.png"></a></li>
+                        <li><a href="#"><img src="img/me.jpg"></a></li>
+                    </ul>
+                </div>
+                <div id="picshow_tx">
+                    <ul>
+                        <li>
+                            <h3><a href="#">垂直轮播标题1</a></h3>
+                            <p>垂直轮播内容1</p>
+                        </li>
+                        <li>
+                            <h3><a href="#">垂直轮播标题2</a></h3>
+                            <p>垂直轮播内容2</p>
+                        </li>
+                        <li>
+                            <h3><a href="#">垂直轮播标题3</a></h3>
+                            <p>垂直轮播内容3</p>
+                        </li>
+                        <li>
+                            <h3><a href="#">垂直轮播标题4</a></h3>
+                            <p>垂直轮播内容4</p>
+                        </li>
+                        <li>
+                            <h3><a href="#">垂直轮播标题5</a></h3>
+                            <p>垂直轮播内容5</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="select_btn">
+                <ul>
+                    <li><a href="#"><img src="img/1.jpg"><span class="select_text">垂直轮播标题1</span><span class="select_date">2019/06/16</span></a></li>
+                    <li><a href="#"><img src="img/2.jpg"><span class="select_text">垂直轮播标题2</span><span class="select_date">2019/06/15</span></a></li>
+                    <li><a href="#"><img src="img/login_bg.png"><span class="select_text">垂直轮播标题3</span><span class="select_date">2019/06/13</span></a></li>
+                    <li><a href="#"><img src="img/logo.png"><span class="select_text">垂直轮播标题4</span><span class="select_date">2019/06/08</span></a></li>
+                    <li><a href="#"><img src="img/me.jpg"><span class="select_text">垂直轮播标题5</span><span class="select_date">2019/06/28</span></a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </section>
+
+<div class="backTop">
+    <a href="#">TOP</a>
+</div>
 <footer>
     <div class="con ">
         <div class="info">
-            <p>制作人: 周雪莹&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系邮箱: <a href="mailto:someone@example.com">someone@example.com</a></p>
+            <p>制作人: 周雪莹&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系邮箱: <a href="mailto:someone@example.com">someone@example.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="about.html" style="color: red">关于博客</a></p>
         </div>
     </div>
 </footer>
